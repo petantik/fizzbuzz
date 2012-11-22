@@ -16,11 +16,11 @@ int main(void){
     for(i=1;i<COUNT;i++){
         if(i%3==0){
             printf("Fizz");
-            guard++;
+            guard=1;
         }
         if(i%5==0){
             printf("Buzz");
-            guard++;
+            guard=1;
         }
         if(guard==0)
             printf("%d",i);

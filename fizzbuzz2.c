@@ -19,12 +19,12 @@ int main(void){
         if(i==fizz){
             printf("Fizz");
             fizz+=3;
-            guard++;
+            guard=1;
         }
         if(i==buzz){
             printf("Buzz");
             buzz+=5;
-            guard++;
+            guard=1;
         }
         if(guard==0)
             printf("%d",i);
